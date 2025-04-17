@@ -33,6 +33,9 @@ caching checksums. Files which have not changed since the last run can reuse
 the checksum calculated previously.  But if a file was 
 modified, then the checksum needs to be recalculated.
 
+## Flow diagram
+[Edit in Excalidraw](./docs/v1/dupfind-cats-effect.excalidraw)
+
 ## Additional Operations
 
 Dupfind has a few additional database-specific operations:
