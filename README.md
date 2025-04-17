@@ -33,9 +33,11 @@ caching checksums. Files which have not changed since the last run can reuse
 the checksum calculated previously.  But if a file was 
 modified, then the checksum needs to be recalculated.
 
-## Flow diagram
+## Flow Diagram
 
-![Architecture Diagram](./docs/v1/dupfind-cats-effect.svg)
+Below is a flow diagram example of searching for duplicate files.  Click the link and zoom in for more detail.
+
+![Flow Diagram](./docs/v1/dupfind-cats-effect.svg)
 
 ## Additional Operations
 
