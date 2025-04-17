@@ -126,7 +126,7 @@ You can edit this file, rerun the assembly, and then run the application with th
 1. Add CI/CD
 2. Use scala steward
 3. Add a REST API using `http4s`
-4. Explore options for avoiding the need to compile streams before grouping.  (See v2 diagram[](docs/v2/dupfind-cats-effect.svg) example and also todo comment in Dupfind.scala)
+4. Explore options for avoiding the need to compile streams before grouping.  (See [v2 diagram](docs/v2/dupfind-cats-effect.svg) example and also todo comment in Dupfind.scala)
 
 ## License
 Shared with the [MIT License]("https://opensource.org/license/MIT").
