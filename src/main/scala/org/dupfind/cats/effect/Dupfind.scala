@@ -93,7 +93,7 @@ case class Dupfind[F[_]: Async](
     //  streams, this won't work because size and checksum both have extremely high cardinality.  But this could work
     //  for a local file system where we are capable of keeping the entire file system path, size, and even checksum in
     //  memory.  In reality, this early fan-out grouping by size or checksum may not produce much benefit.  But it is
-    //  an interesting strategy to experiment with.
+    //  an interesting strategy to experiment with.  See `docs/v2/dupfind-cats-effect.svg` for a flow diagram example.
 
     val checksums = sizeGroups.parEvalMapUnordered(maxConcurrent) { sameSizeFiles =>
       Stream
