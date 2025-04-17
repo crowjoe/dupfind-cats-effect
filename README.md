@@ -34,7 +34,8 @@ the checksum calculated previously.  But if a file was
 modified, then the checksum needs to be recalculated.
 
 ## Flow diagram
-[Edit in Excalidraw](./docs/v1/dupfind-cats-effect.excalidraw)
+
+![Architecture Diagram](./docs/v1/dupfind-cats-effect.svg)
 
 ## Additional Operations
 
