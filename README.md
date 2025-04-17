@@ -1,7 +1,7 @@
 # Dupfind (Typelevel-Edition)
 
 ![Scala](https://img.shields.io/badge/Scala-3-red)
-![License](https://img.shields.io/github/license/yourusername/yourproject)
+![License](https://img.shields.io/github/license/crowjoe/dupfind-cats-effect)
 
 Dupfind is a Scala application for identifying duplicate files on a local filesystem,
 designed with performance and scalability in mind.
